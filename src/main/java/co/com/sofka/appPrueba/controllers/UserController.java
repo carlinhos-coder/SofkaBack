@@ -19,7 +19,7 @@ import co.com.sofka.appPrueba.services.UserService;
 
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:3000" )
+@CrossOrigin(origins = "http://localhost:3000" )
 @RequestMapping("/api/usuarios")
 public class UserController {
 
